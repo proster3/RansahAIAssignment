@@ -1,50 +1,43 @@
-# React + TypeScript + Vite
+# RansahAI Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About RansahAI
 
-Currently, two official plugins are available:
+RansahAI is an AI agentic model that helps HRs and particularly the organizations that are looking to hire candidates to evaluate their skill efficiently. It provides transperancy, efficiency and saves a lot of time and human efforts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Assignment
 
-## Expanding the ESLint configuration
+This assignment is assigned to me so as to showcase my front-end skills. The level of assignemtn is easy.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## About me
 
-- Configure the top-level `parserOptions` property like this:
+Hi! My name is Harsh. I’m currently pursuing a Bachelor’s degree in Technology with a specialization in Computer Science and Engineering at Graphic Era University.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+I have a strong passion for web development, which has led me to build and deploy several full-stack applications using TypeScript, Node.js, and React. In addition to a few personal projects, I recently had the chance to intern with Codedamn, where I contributed to impactful features on their e-learning platform. I’m always exploring new technologies—my latest project, for instance, involves scaling a platform using edge runtime.
+
+My Github [link](https://github.com/harsh2509)
+
+And My Portfolio [link](https://harshchauhanportfolio.vercel.app) that is inspired by the design of github profile.
+
+# Getting Started
+
+## Step 1: Install all dependencies
+
+```bash
+npm install
+#OR
+bun install
+#etc.
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Step 2: Running the application
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+npm run dev
+#OR
+bun dev
+#etc.
 ```
+
+## Step 3: Visition the socket
+
+Click on the [link](http://localhost:5173/) to preview the result locally or type http://localhost:5173/ in the browser.
