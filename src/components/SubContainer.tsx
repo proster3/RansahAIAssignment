@@ -9,8 +9,8 @@ export function SubContainer({
   colorCode: number;
 }) {
   const colorCombinations = [
-    ["pink", "skyblue", "red", "brown"],
-    ["red", "orange", "lightorange", "black"],
+    ["#f56fa0", "#00baff", "#cc061e", "#524000"],
+    ["#d90b54", "#ff3801", "#ffa913", "#01153e"],
   ];
   return (
     <div className="sub-container">
